@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState, useEffect  } from 'react';
 import './App.css'
 import { FormControl, InputGroup, Container, Button } from "react-bootstrap";
 
@@ -39,7 +39,7 @@ function App() {
       <Container>
         <InputGroup>
           <FormControl
-            placeholder = "Search For An Artist"
+            placeholder = "look up an artist"
             type = "input"
             arial-label = "Search For An Artist"
             onKeyDown = {""} // search function
@@ -55,7 +55,7 @@ function App() {
             }}
           />
 
-          <Button onClick={{}}>Search</Button>
+          <Button onClick={{}}>search</Button>
         </InputGroup>
       </Container>
     </>
