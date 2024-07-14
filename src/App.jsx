@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import './App.css'
 import { FormControl, InputGroup, Container, Button } from "react-bootstrap";
 
@@ -7,6 +8,7 @@ const clientId = import.meta.env.VITE_CLIENT_ID;
 const clientSecret = import.meta.env.VITE_CLIENT_SECRET;
 
 function App() {
+  const [searchInput, setSearchInput] = useState("");
   return (
    <>
       <Container>
