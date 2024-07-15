@@ -34,6 +34,30 @@ function App() {
       // [] makes sure it runs only once
   }, []);
 
+  // search function - GET request for artists
+  async function search() {
+    let artistParams = {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json",
+        Authorization: "Bearer " + accessToken,
+      },
+    };
+
+    // Get the artist
+    // searchInput gets what the user typed to search for the artist. Then return the first search result
+    const artistID = await fetch(
+      "https://api.spotify.com/v1/search?q=" + searchInput + "&type=artist", artistParams
+    )
+      .then((result) => result.json())
+      .then((data) => {
+        return data.artists.items[0].id;
+      });
+
+      console.log("Search input: " + searchInput);
+      console.log("Artist ID: " + artistID);
+  }
+
   return (
    <>
       <Container>
@@ -42,8 +66,13 @@ function App() {
             placeholder = "look up an artist"
             type = "input"
             arial-label = "Search For An Artist"
-            onKeyDown = {""} // search function
-            onChange = {""} // setSearch
+            onKeyDown = {(event) => {
+              if (event.key == "Enter"){
+                search();
+              }
+            }} // search function
+
+            onChange = {(event) => setSearchInput(event.target.value)} // setSearch
             style = {{
               width: "300px",
               height: "35px",
@@ -55,7 +84,7 @@ function App() {
             }}
           />
 
-          <Button onClick={{}}>search</Button>
+          <Button onClick={search}>search</Button>
         </InputGroup>
       </Container>
     </>
