@@ -109,7 +109,7 @@ function App() {
             <Card
               key={album.id}
               style={{
-                backgroundColor: "white",
+                backgroundColor: "#D5E4CF",
                 margin: "10px",
                 borderRadius: "5px",
                 marginBottom: "30px",
@@ -139,15 +139,15 @@ function App() {
                 <Button
                   href={album.external_urls.spotify}
                   style={{
-                    backgroundColor: 'black',
-                    color: 'white',
+                    backgroundColor: '#98A998',
+                    color: 'black',
                     fontWeight: 'bold',
                     fontSize: '15px',
                     borderRadius: '5px',
                     padding: '10px',
                   }}
                 >
-                  Album Link
+                  View Album
                 </Button>
               </Card.Body>
             </Card>
