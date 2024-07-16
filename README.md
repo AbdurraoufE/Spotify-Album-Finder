@@ -34,6 +34,8 @@ npm run dev
 
 🎨 **Simple UI:** Designed for ease of use and visual appeal
 
+📱 **Phone Compatibility:** Optimized for use on mobile devices.
+
 ## Screenshots
 
 
