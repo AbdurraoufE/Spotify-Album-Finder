@@ -42,3 +42,10 @@ npm run dev
 https://github.com/user-attachments/assets/c38d4892-32b8-4a2d-992b-09e2c102a008
 
 ## Future-Plans
+🔍 Add a section to search for genres
+
+🎨 Enhance UI/UX with animations
+
+🌐 Integrate sharing options
+
+🌙 Implement a dark mode option for the interface
