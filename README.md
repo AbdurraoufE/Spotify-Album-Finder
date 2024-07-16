@@ -1,8 +1,23 @@
-# React + Vite
+# Spotify Lookup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [What is the app built with](#Application-Background)
+- [Getting started](#Getting-Started)
+- [How to run the application](#How-To-Run-App)
+- [Features on the app](#Features)
+- [Screenshots](#screenshots)
+- [What is next?](#Future-Plans)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Application-Background
+https://spotifylookup.netlify.app/
+
+## Getting-Started / Installation
+
+## How-To-Run-App
+
+## Features
+
+## Screenshots
+
+## Future-Plans
