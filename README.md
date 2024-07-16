@@ -27,7 +27,9 @@ npm run dev
 
 ## Features
 🔍 **Search:** Search for any artist by name
+
 🖼️ **Album Display:** Shows album images, titles, and release dates
+
 🎵 **View Album Button:** Directly opens Spotify with the selected album
 
 ## Screenshots
