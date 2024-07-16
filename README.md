@@ -32,6 +32,8 @@ npm run dev
 
 🎵 **View Album Button:** Directly opens Spotify with the selected album
 
+🎨 **Simple UI:** Designed for ease of use and visual appeal
+
 ## Screenshots
 
 
