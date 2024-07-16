@@ -37,6 +37,8 @@ npm run dev
 📱 **Responsive Design:** Compatible with screen resizing and optimized for mobile use
 
 ## Screenshots
+https://github.com/user-attachments/assets/c38d4892-32b8-4a2d-992b-09e2c102a008
 
+![lana](https://github.com/user-attachments/assets/99a3ba4b-7900-47ec-97b3-b9ddefa3bcb1)
 
 ## Future-Plans
